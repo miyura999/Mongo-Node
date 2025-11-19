@@ -1,0 +1,20 @@
+{
+  "name": "crud-alumnos",
+  "version": "1.0.0",
+  "description": "Sistema CRUD para gestión de alumnos con MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["crud", "mongodb", "express", "ejs", "nodejs"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3"
+  }
+}
